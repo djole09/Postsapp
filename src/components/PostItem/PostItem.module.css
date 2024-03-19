@@ -1,0 +1,41 @@
+.post_item {
+  width: 99%;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2em;
+  padding: 20px;
+  border-radius: 9px;
+  box-shadow: 0 0 2px 2px var(--silver);
+
+  h1 {
+    align-self: center;
+    cursor: pointer;
+    transition: all 0.4s;
+
+    &:hover {
+      color: var(--blue);
+    }
+  }
+
+  h3 {
+    align-self: flex-end;
+  }
+}
+
+.comments {
+  width: 100%;
+  padding: 6px 0;
+  text-align: center;
+  color: var(--comment-color);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.4s;
+
+  &:hover {
+    color: var(--hover-comment-color);
+  }
+}
+
+.comments_list {
+  width: 100%;
+}

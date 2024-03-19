@@ -1,0 +1,20 @@
+:root {
+  --silver: #e3e3e3;
+  --top-border-silver: #c8b2b2;
+  --comment-color: #c7b0b0;
+  --hover-comment-color: #8b8181;
+  --blue: rgb(0, 0, 255);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
